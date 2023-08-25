@@ -75,12 +75,13 @@ header{
     position: fixed;
     top:0; left: 0;
     z-index: 1000;
-    padding:.8rem 3rem;
+    padding:1rem 4rem;
 }
 
 header .logo{
-    font-size: 3rem;
+    font-size: 2.7rem;
     color:#fff;
+    
 }
 header .logo:hover{
     transform: scale(1.2);
@@ -88,6 +89,8 @@ header .logo:hover{
 
 header .logo span{
     color:var(--orange);
+    font-weight: 500;
+    font-size: 3rem;
 }
 
 header .navbar ul{
@@ -98,7 +101,7 @@ header .navbar ul{
 }
 
 header .navbar ul li{
-    margin:0 1rem;
+    margin:0 2rem;
 }
 
 header .navbar ul li a{
